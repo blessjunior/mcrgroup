@@ -1,0 +1,162 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+ul {
+    margin: 1em;
+}
+.alert{font-weight: bold;}
+.star ul, .star li {
+    list-style: none;
+    padding: 0;
+}
+.star ul li:before {
+    padding-right: 0.2em;
+    content:'\f006';
+    font-family: 'FontAwesome';
+    float: left;
+    color: #0074d9;
+}
+.title {
+    font-size: 3.4em;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+.icon{
+    font-size: 8em;
+    font-weight:bolder;
+    color: #3ba476;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.well {
+    background-color: transparent;
+    border: none;
+}
+.well .row p {
+    font-size: 1.2em;
+}
+.well .row blockquote {
+    border-color: #0074d9;
+    color: #0074d9;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+.panel, .panel-default {
+    border: none;
+}
+.panel-heading {
+    background-color: #F1F7FD !important;
+    border-bottom: 3px solid #31708F !important;
+}
+.panel-heading h4 {
+    color: #000000;
+    font-weight: bolder;
+}
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+
+    .star ul {
+        margin: 1em;
+    }
+
+    .icon {
+        font-size: 6em;
+        font-weight: bold;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+
+    .star ul {
+        margin: 0.5em;
+    }
+
+    .icon {
+        font-size: 4em;
+        font-weight: bold;
+    }
+}
